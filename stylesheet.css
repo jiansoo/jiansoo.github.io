@@ -1,26 +1,12 @@
+@font-face {
+    font-family: Avenir-Book;
+    src: url("/assets/fonts/nexalight.ttf") format("truetype"); 
+}
+
 body {
-background-color: #FF9999
-}
-#unwantedchild {
-	padding: 1px;
-	background-color: #CC0033;
-	border: 3px solid;
-	border-radius: 3px;
-}
-
-div nav ul li {
-	float: center;
-	display: table-cell;
-	vertical-align: middle;
-	margin: 10px;
-	font-family: Garamond;
-	font-size: 1em;
-	color: #FFCCCC;
-}
-
-div nav ul li a {
-	text-decoration: none;
-	color: #ffffff;
-	margin: 2.5em;
-	
+    background-color: rgba(0, 0, 0, 0); 
+    margin: 0px auto; 
+    overflow: hidden; 
+    width: 600px;
+    height: 1200px;
 }
